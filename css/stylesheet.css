@@ -1,0 +1,57 @@
+/* FONT FAMILY */
+@font-face {
+    font-family: 'Roboto' ;
+    src: url('fonts/Roboto-Regular.ttf')
+}
+@font-face {
+    font-family: 'DDCHardware-compressed' ;
+    src: url('fonts/DDCHardware-Compressed.otf')
+}
+@font-face {
+    font-family: 'DDCHardware-regular' ;
+    src: url('fonts/DDCHardware-Regular.otf')
+}
+/*  ---------------------------------------------*/
+
+body {
+    background-color: #16182c;
+    text-align: center;
+}
+
+
+/* TEXT */
+h1, h2, p, a {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    color: yellow;
+    text-transform: uppercase;
+}
+/*  ---------------------------------------------*/
+
+
+
+/* NAV bar  */
+ul {
+    display: flex;
+    padding: 1.5rem;
+    list-style-type: none;
+    gap: 1em;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    border: solid 3px white;
+    /* TEMPORARY */
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00ff00;
+}
+/*  ---------------------------------------------*/
