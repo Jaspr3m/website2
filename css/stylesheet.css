@@ -55,3 +55,18 @@ li a:hover {
     background-color: #00ff00;
 }
 /*  ---------------------------------------------*/
+
+#wie-ben-ik {
+    border: solid 2px beige;
+    padding-top: 20px;
+}
+
+#wat-vind-ik-leuk {
+     border: solid 2px red;
+    padding-top: 20px;
+}
+
+#waarom-gebruik-ik-fl {
+    border: solid 2px green;
+    padding-top: 20px;
+}
