@@ -1,0 +1,26 @@
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    grid-template: auto;
+}
+
+.grid-item2 {
+    border: solid 2px orange;
+    background-color: beige;
+    margin: 1vw;
+}
+
+.grid-item2 p,
+h2,
+a {
+    color: black;
+}
+
+/* wie ben ik? in de index pagina wordt ook zwart. WHY!!! */
+
+.nested-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

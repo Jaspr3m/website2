@@ -1,0 +1,33 @@
+/* NAV bar  */
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1em;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    background-color: orange;
+    border-radius: 15%;
+    transition: .2s ease;
+}
+
+/* list items zijn niet dezelfde grootte, home is bijvoorbeeld kleiner dan intermediate */
+
+nav li a:hover {
+    background-color: yellowgreen;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05)
+}
+
+/*  ---------------------------------------------*/

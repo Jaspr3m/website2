@@ -1,59 +1,50 @@
 /* FONT FAMILY */
 @font-face {
-    font-family: 'Roboto' ;
+    font-family: 'Roboto';
     src: url('fonts/Roboto-Regular.ttf')
 }
+
 @font-face {
-    font-family: 'DDCHardware-compressed' ;
+    font-family: 'DDCHardware-compressed';
     src: url('fonts/DDCHardware-Compressed.otf')
 }
+
 @font-face {
-    font-family: 'DDCHardware-regular' ;
+    font-family: 'DDCHardware-regular';
     src: url('fonts/DDCHardware-Regular.otf')
 }
+
 /*  ---------------------------------------------*/
 
+/* ALGEMEEN */
 body {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #16182c;
     text-align: center;
 }
 
 /* TEXT */
-h1, h2, p, a {
+h1,
+h2,
+p,
+a {
     font-family: Arial, sans-serif;
     color: white;
 }
 
 h1 {
-    color: yellow;
+    color: yellowgreen;
     text-transform: uppercase;
 }
-/*  ---------------------------------------------*/
 
-
-
-/* NAV bar  */
-ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    list-style-type: none;
-    /* gap: 1em; */
-    background-color: burlywood;
-    border: solid 3px white;
-    /* TEMPORARY */
-}
-
-li a {
-    display: block;
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: orange;
     color: white;
-    text-decoration: none;
-    padding: 1rem;
+
+    /* random bolletje bij de footer??? */
 }
 
-li a:hover {
-    background-color: #00ff00;
-}
 /*  ---------------------------------------------*/
