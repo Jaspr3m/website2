@@ -14,10 +14,11 @@
 /*  ---------------------------------------------*/
 
 body {
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #16182c;
     text-align: center;
 }
-
 
 /* TEXT */
 h1, h2, p, a {
@@ -36,10 +37,10 @@ h1 {
 /* NAV bar  */
 ul {
     display: flex;
-    padding: 1.5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
     list-style-type: none;
-    gap: 1em;
-    justify-content: space-evenly;
+    /* gap: 1em; */
     background-color: burlywood;
     border: solid 3px white;
     /* TEMPORARY */
@@ -49,24 +50,10 @@ li a {
     display: block;
     color: white;
     text-decoration: none;
+    padding: 1rem;
 }
 
 li a:hover {
     background-color: #00ff00;
 }
 /*  ---------------------------------------------*/
-
-#wie-ben-ik {
-    border: solid 2px beige;
-    padding-top: 20px;
-}
-
-#wat-vind-ik-leuk {
-     border: solid 2px red;
-    padding-top: 20px;
-}
-
-#waarom-gebruik-ik-fl {
-    border: solid 2px green;
-    padding-top: 20px;
-}
