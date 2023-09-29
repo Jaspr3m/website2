@@ -48,3 +48,128 @@ footer {
 }
 
 /*  ---------------------------------------------*/
+
+/*  1 stylesheet */
+
+/* section:nth-of-type(2) h2  */
+
+/* NAV bar  */
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1em;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    background-color: orange;
+    border-radius: 15%;
+    transition: .2s ease;
+}
+
+/* list items zijn niet dezelfde grootte, home is bijvoorbeeld kleiner dan intermediate */
+
+nav li a:hover {
+    background-color: yellowgreen;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05)
+}
+
+/*  ---------------------------------------------*/
+
+
+#wie-ben-ik {
+    /* border: solid 2px #f5f5dc; */
+    padding-top: 20px;
+}
+
+#wat-vind-ik-leuk {
+    /* border: solid 2px red; */
+    padding-top: 20px;
+}
+
+#waarom-gebruik-ik-fl {
+    /* border: solid 2px green; */
+    padding-top: 20px;
+}
+
+img {
+    height: 300px;
+}
+
+/* NAV bar  */
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1em;
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    background-color: orange;
+    border-radius: 15%;
+    transition: .2s ease;
+}
+
+/* list items zijn niet dezelfde grootte, home is bijvoorbeeld kleiner dan intermediate */
+
+nav li a:hover {
+    background-color: yellowgreen;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05)
+}
+
+/*  ---------------------------------------------*/
+
+/* GRID */
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    grid-template: auto;
+}
+
+.grid-item2 {
+    border: solid 2px orange;
+    background-color: beige;
+    margin: 1vw;
+}
+
+.grid-item2 p,
+h2,
+a {
+    color: black;
+}
+
+/* wie ben ik? in de index pagina wordt ook zwart. WHY!!! */
+
+.nested-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*  ---------------------------------------------*/
