@@ -49,7 +49,6 @@ footer {
 
 /*  ---------------------------------------------*/
 
-/*  1 stylesheet */
 
 /* section:nth-of-type(2) h2  */
 
@@ -89,21 +88,7 @@ nav li a:hover {
 
 /*  ---------------------------------------------*/
 
-
-#wie-ben-ik {
-    /* border: solid 2px #f5f5dc; */
-    padding-top: 20px;
-}
-
-#wat-vind-ik-leuk {
-    /* border: solid 2px red; */
-    padding-top: 20px;
-}
-
-#waarom-gebruik-ik-fl {
-    /* border: solid 2px green; */
-    padding-top: 20px;
-}
+/* Image settings */
 
 img {
     height: 300px;
@@ -146,7 +131,7 @@ nav li a:hover {
 
 /* GRID */
 
-.grid-container-2 {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto grid-column-gap: 1vw;
@@ -154,13 +139,13 @@ nav li a:hover {
     grid-template: auto;
 }
 
-.grid-item2 {
+.grid-item {
     border: solid 2px orange;
     background-color: beige;
     margin: 1vw;
 }
 
-.grid-item2 p,
+.grid-item p,
 h2,
 a {
     color: black;
