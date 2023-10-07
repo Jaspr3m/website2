@@ -27,7 +27,10 @@ body {
 
 /* TEXT SETTINGS*/
 
-h1, h2, p, a {
+h1,
+h2,
+p,
+a {
     font-family: Arial, sans-serif;
 }
 
@@ -140,25 +143,25 @@ nav li a:hover {
 .grid-container-1 p {
     color: black;
 }
-  
+
 .top {
     grid-area: top;
     padding: 1%;
     border-bottom: solid 2px black;
 }
-  
+
 .bottom-left {
     grid-area: bottom-left;
     padding: 8%;
     border-right: solid 2px black;
 }
-  
+
 .bottom-right {
     grid-area: bottom-right;
     padding: 8%;
     border-left: solid 2px black;
 }
-  
+
 /* ------------------------------------------------------- */
 
 /* GRID 2, gebruikt door gridtest2.html */
@@ -167,8 +170,6 @@ nav li a:hover {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
     border: solid 5px orange;
     background-color: beige;
 }
@@ -202,30 +203,30 @@ nav li a:hover {
     background-color: beige;
     margin-bottom: 1%;
 }
-  
+
 .top-left {
     grid-area: top-left;
     padding-top: 2%;
     border-bottom: solid 4px black;
     border-right: solid 2px black;
 }
-  
+
 .top-right {
     grid-area: top-right;
     padding-top: 2%;
     border-bottom: solid 4px black;
     border-left: solid 2px black;
 }
-  
+
 .bottom {
     grid-area: bottom;
     padding-top: 2%;
 }
-  
+
 .grid-container-3 p {
     color: black;
 }
-  
+
 
 /* ------------------------------------------------------- */
 
@@ -243,22 +244,17 @@ nav li a:hover {
 
 .grid-item {
     border: solid 2px black;
-    padding-top: 3%;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding: 2%;
 }
 
-
 /*  ---------------------------------------------*/
-/*  ---------------------------------------------*/
-
 
 /* FOOTER */
 
 footer {
     list-style-type: none;
     text-align: center;
-    padding: 3px;
+    padding: 0.5em;
     background-color: orange;
 }
 
@@ -267,5 +263,3 @@ footer a:hover {
 }
 
 /*  ---------------------------------------------*/
-
-/* section:nth-of-type(2) h2  */
