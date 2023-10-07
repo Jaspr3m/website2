@@ -172,6 +172,7 @@ nav li a:hover {
     grid-template-rows: repeat(3, 1fr);
     border: solid 5px orange;
     background-color: beige;
+    margin-bottom: 1%;
 }
 
 .grid-container-2 p {
